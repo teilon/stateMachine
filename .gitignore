@@ -6,3 +6,6 @@ stateMachine/temp.txt
 
 # debug files
 stateMachine/bin/Debug
+
+# obj files
+stateMachine/obj
