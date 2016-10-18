@@ -10,7 +10,8 @@ namespace stateMachine
     {        
         static void Main(string[] args)
         {
-            DumpStatus temp = DumpStatus.Instance;
+            //DumpStatus temp = DumpStatus.Instance;
+            DumpStatus temp = new DumpStatus();
 
 
             Console.WriteLine(temp.Current);
@@ -22,10 +23,10 @@ namespace stateMachine
             temp.OnRoad();
             Console.WriteLine(temp.Current);
 
-                    temp.OnExcavator();
-                    Console.WriteLine(temp.Current);
-                    temp.OnExcavator();
-                    Console.WriteLine(temp.Current);
+                    //temp.OnExcavator();
+                    //Console.WriteLine(temp.Current);
+                    //temp.OnExcavator();
+                    //Console.WriteLine(temp.Current);
 
             temp.OnRoad();
             Console.WriteLine(temp.Current);

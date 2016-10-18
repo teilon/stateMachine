@@ -22,6 +22,7 @@ namespace stateMachine
     public class DumpStatus
     {
         #region instance
+        /*
         static DumpStatus _instance = null;
         public static DumpStatus Instance { get { return (_instance == null) ? newInstance() : _instance; } }
         static DumpStatus newInstance()
@@ -29,6 +30,7 @@ namespace stateMachine
             _instance = new DumpStatus();
             return _instance;
         }
+        */
         #endregion
 
         public string Current { get { return GetCurrentState(); } }
@@ -47,7 +49,7 @@ namespace stateMachine
         }
 
         StateMachine<State, Trigger> _stateMachine;
-        private DumpStatus()
+        public DumpStatus()
         {
             _stateMachine = new StateMachine<State, Trigger>(State.NN);    
             DefaultConfiguration();
