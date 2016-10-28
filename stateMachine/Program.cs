@@ -67,23 +67,7 @@ namespace stateMachine
 
             temp.OnRoad();
             Console.WriteLine(temp.Current);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                                      
             //temp.OnExcavator();
             //temp.OnDepot();
             //temp.OnParking();

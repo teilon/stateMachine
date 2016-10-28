@@ -10,7 +10,7 @@ namespace stateMachine
     {
         internal class StartAction
         {
-            //not use
+            //todo: start            
         }
     }    
 }
